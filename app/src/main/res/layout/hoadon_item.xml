@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:background="@drawable/custom_btn_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:singleLine="false"
+            android:id="@+id/txt_ban_hoadon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="101"
+            android:textColor="#000"
+            android:textSize="32sp" />
+
+        <TextView
+
+            android:gravity="center_vertical"
+            android:layout_gravity="right"
+            android:id="@+id/txt_thanhtien_hoadon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+
+            android:text="100k"
+            android:textColor="#000"
+            android:textSize="32sp" />
+
+    </LinearLayout>
+</layout>

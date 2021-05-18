@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="@drawable/custom_btn_home">
+
+    <TextView
+        android:singleLine="false"
+        android:layout_margin="10dp"
+        android:gravity="center_vertical"
+        android:id="@+id/txt_tenhang_cart"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+
+        android:textSize="22sp"
+        android:text="ten" />
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_alignParentRight="true"
+        android:textSize="22sp"
+        android:gravity="center_vertical"
+        android:id="@+id/txt_gia_cart"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+
+        android:text="ten" />
+
+</RelativeLayout>

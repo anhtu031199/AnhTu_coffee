@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/item_name" />
+
+    <EditText
+android:singleLine="true"
+        android:id="@+id/et_tenhang_menu_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/dont_use_symbol" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/price" />
+
+    <EditText
+        android:singleLine="true"
+        android:id="@+id/et_gia_menu_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Giá"
+        android:inputType="number" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/discount" />
+
+    <EditText
+        android:singleLine="true"
+        android:inputType="number"
+        android:id="@+id/et_khuyenmai_menu_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="%" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/note" />
+
+    <EditText
+        android:singleLine="true"
+        android:id="@+id/et_thanhphan_menu_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/note" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/img_url" />
+
+    <EditText
+        android:singleLine="true"
+
+        android:id="@+id/et_linkanh_menu_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/img_url" />
+
+
+</LinearLayout>

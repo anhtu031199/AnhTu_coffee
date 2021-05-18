@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+
+        android:id="@+id/all"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/custom_bg_home"
+        android:orientation="vertical">
+
+        <TextView
+            android:singleLine="true"
+            android:id="@+id/txtwelcome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/bungeevn"
+            android:gravity="center_vertical"
+            android:text="@string/welcome1"
+            android:textSize="20sp" />
+
+        <TextView
+            android:singleLine="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/bungeevn"
+            android:gravity="center_vertical"
+            android:text="@string/have_a_good_day"
+            android:textSize="12sp" />
+
+        <LinearLayout
+            android:id="@+id/line1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/btn1"
+                android:layout_width="0dp"
+
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_btn_home"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/img_btn1"
+                    android:layout_width="100dp"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="4"
+                    android:src="@drawable/menu_icon1" />
+
+                <TextView
+                    android:id="@+id/txt_btn1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_weight="1"
+                    android:fontFamily="@font/bungeevn"
+                    android:gravity="center"
+                    android:text="@string/order"
+                    android:textSize="22sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btn2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_btn_home"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/img_btn2"
+                    android:layout_width="100dp"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="4"
+                    android:src="@drawable/menu_icon2_4" />
+
+                <TextView
+                    android:id="@+id/txt_btn2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_weight="1"
+                    android:fontFamily="@font/bungeevn"
+                    android:gravity="center"
+                    android:text="@string/payment"
+                    android:textSize="22sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/line2"
+
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/btn3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_btn_home"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/img_btn3"
+                    android:layout_width="100dp"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+
+                    android:layout_weight="4"
+                    android:src="@drawable/menu_icon3" />
+
+                <TextView
+                    android:id="@+id/txt_btn3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_weight="1"
+                    android:fontFamily="@font/bungeevn"
+                    android:gravity="center"
+                    android:text="@string/order_list"
+                    android:textSize="22sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btn4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_btn_home"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/img_btn4"
+                    android:layout_width="100dp"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="4"
+                    android:src="@drawable/menu_icon4" />
+
+                <TextView
+                    android:id="@+id/txt_btn4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_weight="1"
+                    android:fontFamily="@font/bungeevn"
+                    android:gravity="center"
+                    android:text="@string/table_mgmt"
+                    android:textSize="22sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/line3"
+
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/btn5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_btn_home"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/img_btn5"
+                    android:layout_width="100dp"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="4"
+                    android:src="@drawable/menu_icon5" />
+
+                <TextView
+                    android:id="@+id/txt_btn5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_weight="1"
+                    android:fontFamily="@font/bungeevn"
+                    android:gravity="center"
+                    android:text="@string/stock_mgmt"
+                    android:textSize="22sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btn6"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_btn_home"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/img_btn6"
+                    android:layout_width="100dp"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="4"
+                    android:src="@drawable/menu_icon6" />
+
+                <TextView
+                    android:id="@+id/txt_btn6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_weight="1"
+                    android:fontFamily="@font/bungeevn"
+                    android:gravity="center"
+                    android:text="@string/menu_mgmt"
+                    android:textSize="22sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/line4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/btn7"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_btn_home"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/img_btn7"
+                    android:layout_width="100dp"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="4"
+                    android:src="@drawable/menu_icon7" />
+
+                <TextView
+                    android:id="@+id/txt_btn7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_weight="1"
+                    android:fontFamily="@font/bungeevn"
+                    android:gravity="center"
+                    android:text="@string/about"
+                    android:textSize="22sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btn8"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_btn_home"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/img_btn8"
+                    android:layout_width="100dp"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="4"
+                    android:src="@drawable/menu_icon8" />
+
+                <TextView
+                    android:id="@+id/txt_btn8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_weight="1"
+                    android:fontFamily="@font/bungeevn"
+                    android:gravity="center"
+                    android:text="@string/more_setting"
+                    android:textSize="22sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</layout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/custom_bg_home"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:fontFamily="@font/bungeevn"
+            android:gravity="center"
+            android:text="@string/personal_info"
+            android:textColor="#000"
+            android:textSize="32sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="@string/name"
+                android:textColor="#000"
+                android:textSize="22sp" />
+
+            <EditText
+                android:editable="false"
+                android:id="@+id/txt_thongtin_hoten"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="@string/name"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="@string/phone"
+                android:textColor="#000"
+                android:textSize="22sp" />
+
+            <EditText
+                android:editable="false"
+                android:id="@+id/txt_thongtin_sdt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="@string/phone"
+                android:textColor="#000" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="@string/username"
+                android:textColor="#000"
+                android:textSize="22sp" />
+
+            <EditText
+                android:editable="false"
+
+                android:id="@+id/txt_thongtin_taikhoan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="@string/username"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/btn_doimk"
+                android:text="@string/change_pass"
+                android:background="@drawable/custom_add_table_btn"
+                android:gravity="center"
+                android:layout_margin="20dp"
+                android:textSize="32sp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</layout>

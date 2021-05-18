@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/table"/>
+    <EditText
+        android:inputType="number"
+        android:id="@+id/et_id_table_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/floor1"/>
+    <EditText
+        android:inputType="number"
+        android:id="@+id/et_floor_table_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="" />
+    <CheckBox
+        android:buttonTint="#000"
+        android:checked="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cb_empty_table_add"
+        android:text="@string/is_empty"/>
+
+</LinearLayout>

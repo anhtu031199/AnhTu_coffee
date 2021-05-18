@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_margin="5dp">
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+
+        android:background="@drawable/custom_btn_home"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/img_item_table"
+            android:src="@drawable/table_1"/>
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:textColor="#000"
+                    android:gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="ID"
+                    android:textSize="22sp"
+                    android:id="@+id/txt_id_table"/>
+                <TextView
+                    android:textColor="#000"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="ID"
+                    android:textSize="22sp"
+                    android:id="@+id/txt_empty_table"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:textColor="#000"
+                android:gravity="center_vertical"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="Floor"
+                android:textSize="22sp"
+                android:id="@+id/txt_floor_table"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</layout>

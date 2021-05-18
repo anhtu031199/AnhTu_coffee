@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/material"/>
+    <EditText
+
+        android:id="@+id/et_nguyenlieu_stock_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/dont_use_symbol" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/amount"/>
+    <EditText
+        android:id="@+id/et_slcon_stock_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Số lượng còn"
+        android:inputType="number" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ncc"/>
+    <EditText
+        android:id="@+id/et_ncc_stock_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhà cung cấp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/don_vi_tinh"/>
+    <EditText
+        android:id="@+id/et_donvitinh_stock_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="(mg, ml,...)" />
+
+
+</LinearLayout>
